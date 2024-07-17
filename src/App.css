@@ -1,0 +1,75 @@
+body {
+  background-color: whitesmoke;
+  font-family: Arial, sans-serif;
+  color: #b535dc;
+  background-image: url('https://wallpapercave.com/wp/wp3701541.jpg');
+}
+
+.container {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(152, 7, 7, 0.943);
+  padding: 20px;
+  margin-top: 50px;
+}
+
+.text-center {
+  font-weight: bold;
+  color: #2f48b8af;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+}
+
+.input-group .form-control {
+  border-radius: 4px;
+  border: 1px solid #ced4da;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.input-group .btn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.input-group .btn:hover {
+  background-color: #0056b3;
+}
+
+.list-group {
+  list-style: none;
+  padding: 0;
+}
+
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+}
+.list-group-item p {
+  margin: 0;
+}
+
+.list-group-item .btn {
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #dc3545;
+}
+
+.list-group-item .btn:hover {
+  color: #c82333;
+}
